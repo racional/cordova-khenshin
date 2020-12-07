@@ -44,11 +44,11 @@
 
         builder.cellSeparatorHeight = 2.f;
         builder.barTintColor = [UIColor whiteColor];
-        builder.navigationBarTextTint = [UIColor cyanColor];
-        builder.textColorHex = @"#ff00ff";
-        builder.principalColor = [UIColor lightGrayColor];
-        builder.secondaryColor = [UIColor redColor];
-        builder.darkerPrincipalColor = [UIColor darkGrayColor];
+        builder.navigationBarTextTint = [UIColor blackColor];
+        builder.textColorHex = @"#414141";
+        builder.principalColor = [UIColor colorWithRed: 0.09 green: 0.85 blue: 0.68 alpha: 1.00];
+        builder.secondaryColor = [UIColor colorWithRed: 0.09 green: 0.85 blue: 0.68 alpha: 1.00];
+        builder.darkerPrincipalColor = [UIColor colorWithRed: 0.33 green: 0.60 blue: 0.59 alpha: 1.00];;
 
         builder.allowCredentialsSaving = YES;
     }];

@@ -2,7 +2,7 @@
 <resources>
 
     <color name="khenshin_primary">#18daae</color>
-    <color name="khenshin_primary_dark">#ffffff</color>
+    <color name="khenshin_primary_dark">#18daae</color>
     <color name="khenshin_primary_text">#ffffff</color>
 
     <color name="khenshin_accent">#18daae</color>

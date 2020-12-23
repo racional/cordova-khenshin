@@ -32,9 +32,9 @@ public class KhenshinPlugin extends CordovaPlugin {
 					.setAPIUrl("https://khipu.com/app/enc/")
 					.setMainButtonStyle(Khenshin.CONTINUE_BUTTON_IN_FORM)
 					.setAllowCredentialsSaving(true)
-					.setHideWebAddressInformationInForm(true)
+					.setHideWebAddressInformationInForm(false)
 					.setAutomatonTimeout(90)
-					.setSkipExitPage(false)
+					.setSkipExitPage(true)
 					.build();
 		}
 	}

@@ -34,7 +34,7 @@ public class KhenshinPlugin extends CordovaPlugin {
 					.setAllowCredentialsSaving(true)
 					.setHideWebAddressInformationInForm(true)
 					.setAutomatonTimeout(90)
-					.setSkipExitPage(false)
+					.setSkipExitPage(true)
 					.build();
 		}
 	}
